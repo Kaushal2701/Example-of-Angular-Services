@@ -1,0 +1,17 @@
+<h1>Todo details</h1>
+<div class="todotable">
+    <table border="1px" style="border-color: red;">
+        <tr>
+            <th class="tbhd">First Name</th>
+            <th class="tbhd">Last Name</th>
+            <th class="tbhd">Gender</th>
+            <th class="tbhd">Age</th>
+        </tr>
+        <tr *ngFor="let item of tododetails">
+            <td class="tbdt">{{item.FirstName}}</td>
+            <td class="tbdt">{{item.LastName}}</td>
+            <td class="tbdt">{{item.Gender}}</td>
+            <td class="tbdt">{{item.Age}}</td>
+        </tr>
+    </table>
+</div>

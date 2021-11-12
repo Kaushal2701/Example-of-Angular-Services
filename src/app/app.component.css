@@ -1,0 +1,38 @@
+.main
+{
+    padding: 5px 10px 5px 10px;
+}
+
+.inmain:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col
+{
+    float: left;
+    width: 32%;
+    height: 600px;
+    padding: 10px;
+    text-align: center;
+}
+
+.col1
+{
+    background-color: black;
+    color: beige;
+}
+
+.col2
+{
+    background-color: black;
+    color: beige;
+}
+
+.col3
+{
+    background-color: black;
+    color: beige;
+}
